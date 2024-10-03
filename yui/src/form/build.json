@@ -1,0 +1,10 @@
+{
+    "name": "moodle-availability_newgrade-form",
+    "builds": {
+      "moodle-availability_newgrade-form": {
+        "jsfiles": [
+          "form.js"
+        ]
+      }
+    }
+  }
