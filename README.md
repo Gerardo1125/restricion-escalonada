@@ -16,6 +16,26 @@ Este plugin sólo aparece cuando
 
 1. Al momento de crear una restricción para cualquier actividad se presentará junto con las demas opciones de restricciones propias del sistema
 
+## Estructura del Projecto
+
+La estructura del projecto que debería ser como lo siguiente:
+
+```
+.../
+  ├── classes/                 #
+     ├── privacy/              # Carpeta que contiene los providers del proyecto
+     ├── callbacks.php         # Funciones que usa el plugin al momento de agregarlo o eliminar en la condición de restricción
+     ├── condition.php         # Parte lógica del plugin (Conjunto de funciones y condiciones que cumple el plugin para su correcto funcionamiento)
+     ├── frontend.php          # Archivo encargado de crear la Interfaz de usuario para poder usar el plugin
+  ├── db/                      # Declaración e integración de la base de datos del proyecto
+  ├── lang/eng                 # Declaración de variables que tendrán como valor un texto y se puede usar a nivel de todo el proyecto
+  ├── version.php              # Configuración inicial del proyecto que contiene las versiones de moodle que soportara el proyecto
+  ├── yui/                     # Carpeta que contiene la interfaz del formulario del plugin y tambien la automatización del build del proyecto
+     ├── build/                # Carpeta autogenerada al momento de hacer build al proyecto
+     ├── src/form/             # Carpeta que contiene la implementacion de la interfaz del formulario que se injecta a travez de javascript
+  ├── README.md                # Documentación
+```
+
 ## Condiciones de disponibilidad
 
 Consulte la documentación global sobre las condiciones de disponibilidad condicional:
