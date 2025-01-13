@@ -1,3 +1,4 @@
+#  Scaled Grading Restriction (SGR) for Moodle
 #  Restricción de Calificación Escalonada
 
 Módulo de restricción de acceso a una actividad o recurso mediante la calificación
