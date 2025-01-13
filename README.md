@@ -3,7 +3,7 @@
 
 Módulo de restricción de acceso a una actividad o recurso mediante la calificación
 
-## Idea
+## Propósito
 
 La aplicación propuesta tiene como principal objetivo poder implementar
 restricciones de acceso a una actividad o recurso mediante la calificación de una
